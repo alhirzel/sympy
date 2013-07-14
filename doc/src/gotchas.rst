@@ -22,8 +22,9 @@ If you are already familiar with C or Java, you might also want to look
 this `4 minute Python tutorial
 <http://www.nerdparadise.com/tech/python/4minutecrashcourse/>`_.
 
-Ignore ``#doctest: +SKIP`` in the examples.  That has to do with
-internal testing of the examples.
+.. note::
+    Ignore ``#doctest: +SKIP`` in the examples.  That has to do with
+    internal testing of the examples.
 
 .. _equals-signs:
 
