@@ -86,10 +86,10 @@ Variables
 Variables Assignment does not Create a Relation Between Expressions
 -------------------------------------------------------------------
 
-When you use ``=`` to do assignment, remember that in Python, as in most
-programming languages, the variable does not change if you change the
+When you use ``=`` to do assignment, remember that in Python (as in most
+programming languages) the variable does not change if you change the
 value you assigned to it.  The equations you are typing use the values
-present at the time of creation to "fill in" values, just like regular
+present at the time of creation to "fill in" variables, just like regular
 Python definitions. They are not altered by changes made afterwards.
 Consider the following:
 
@@ -150,7 +150,7 @@ See the Python docs for more information on defining functions.
 
 
 If you define a circular relationship, you will get a
-:exc:`RuntimeError`.
+:py:class:`~exceptions.RuntimeError`.
 
     >>> def a():
     ...     return b()
