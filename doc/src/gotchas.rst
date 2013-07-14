@@ -34,12 +34,13 @@ Equals Signs (=)
 Single Equals Sign
 ------------------
 
-The equals sign (``=``) is the assignment operator, not equality.  If
-you want to do :math:`x = y`, use ``Eq(x, y)`` for equality.
-Alternatively, all expressions are assumed to equal zero, so you can
-just subtract one side and use ``x - y``.
-
-The proper use of the equals sign is to assign expressions to variables.
+The equals sign (``=``) is the assignment operator, not equality.  The
+assignment operator is used to assign expressions to variables.  If you want
+to express the mathematical :math:`x = y` (equality of two quantities ``x``
+and ``y`), use ``Eq(x, y)``.  Additionally, note that all expressions are
+assumed to equal zero when interpreted as an equation. This means you can just
+subtract one side and use the expression ``x - y`` as an equation (which will
+be interpreted implicitly as ``Eq(x - y, 0)``).
 
 For example:
 
